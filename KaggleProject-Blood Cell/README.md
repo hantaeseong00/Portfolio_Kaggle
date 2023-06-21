@@ -1,34 +1,22 @@
-# :pushpin: goQuality
->고퀄리티 개발 컨텐츠 공유 서비스  
->https://go-quality.dev  
+# :pushpin: Kaggle - Blood Cell
+>CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50, VGG16) Blood Cell 데이터 분석 성능 비교
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2019년 2월 18일 ~ 4월 5일
+- 2023.00.00 ~ 2023.00.00
 - 개인 프로젝트
 
 </br>
 
-## 2. 사용 기술
-#### `Back-end`
-  - Java 8
-  - Spring Boot 2.3
-  - Gradle
-  - Spring Data JPA
-  - QueryDSL
-  - H2
-  - MySQL 5.7
-  - Spring Security
-  - Jsoup
-#### `Front-end`
-  - Vue.js 3.0
-  - Element UI
+## 2. 사용 라이브러리(Python)
+  - 
 
 </br>
 
-## 3. ERD 설계
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/final_erd.png)
+## 3. 소스코드(Colab)
+![KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
+<!--![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/final_erd.png)-->
 
 
 ## 4. 핵심 기능
