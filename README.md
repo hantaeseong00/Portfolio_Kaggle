@@ -15,33 +15,33 @@
 </br>
 
 ## :pushpin: Projects
-### 1. [goQuality](https://github.com/Integerous/goQuality)
->고퀄리티 개발 컨텐츠 공유 서비스 (개인 프로젝트)  
->개발 기간: 2019.2.18 ~ 2019.4.5  
+### 1. [저출산 지원 정책 수립을 위한 저출산 요인 분석](https://github.com/JunaHwang/Team1_FirstProject)
+>머신러닝을 활용한 저출산 지원 정책 수립을 위한 저출산 요인 분석 (팀 프로젝트)  
+>개발 기간: 2023.00.00 ~ 2023.00.00
 >  
 >기술 스택:  
->Python
+>Python, R
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/JunaHwang/Team1_FirstProject) 참고
 
 ---
 
-### 2. [두 번째 프로젝트]()
->두 번째 프로젝트 간략 소개  (팀 프로젝트)  
->개발 기간: 2020.7.18 ~ 2020.11.5  
+### 2. [반찬 예측 및 메뉴 추천 시스템](https://github.com/hantaeseong00/Acorn_Final_Proj)
+>머신러닝과 CNN을 활용하여 이미지 분류 및 영양소 분석을 통한 반찬 예측 및 메뉴 추천 시스템 (팀 프로젝트)  
+>개발 기간: 2023.00.00 ~ 2023.00.00
 >  
 >기술 스택:  
->Python
+>Python, R
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/hantaeseong00/Acorn_Final_Proj) 참고
 
 ---
 
-### 3. [세 번째 프로젝트]()
->세 번째 프로젝트 간략 소개  (개인 프로젝트)  
->개발 기간: 2018.1.18 ~ 2018.4.5  
+### 3. [캐글 프로젝트](https://github.com/hantaeseong00/Portfolio_Kaggle)
+> Blood Cell, Brain Tumor Classification, Chest X-Ray Images, COVID-19 Radiography의 CNN 모델별 성능 비교 (개인 프로젝트)  
+>개발 기간: 2023.00.00 ~ 2023.00.00
 >  
 >기술 스택:  
 >Python
 >  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+>[프로젝트 상세 설명](https://github.com/hantaeseong00/Portfolio_Kaggle) 참고
