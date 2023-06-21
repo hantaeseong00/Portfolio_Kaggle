@@ -78,7 +78,7 @@
 - y : 정확도
 - label : [train, validation, test]
 
-![](./graph/MobileNet_loss_acc_graph.png)
+![](./graph/compared_model_graph.png)
 
 </br>
 
