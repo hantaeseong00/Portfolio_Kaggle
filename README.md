@@ -44,4 +44,7 @@
 >기술 스택:  
 >Python
 >  
->[프로젝트 상세 설명](https://github.com/hantaeseong00/Portfolio_Kaggle) 참고
+>[Blood Cell](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Blood%20Cell) 참고
+>[Brain Tumor Classification](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Brain%20Tumor%20Classification(MRI)) 참고
+>[Chest X-Ray Images](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Chest%20X-Ray%20Images%20(Pneumonia)) 참고
+>[COVID-19 Radiography](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-COVID-19%20Radiography) 참고
