@@ -4,7 +4,12 @@
 </br>
 
 ## :pushpin: Intro
-(여기에 자기 소개)
+Taeseong Han (한태성)
+. M.S. Candidate
+. B.S., Industrial and Management Engineering, INU
+. Social Contents Curation
+. AILawyer(인공지능변호사)
+. Contents Extraction for Mobile
 
 </br>
 
@@ -17,7 +22,7 @@
 ## :pushpin: Projects
 ### 1. [저출산 지원 정책 수립을 위한 저출산 요인 분석](https://github.com/JunaHwang/Team1_FirstProject)
 >머신러닝을 활용한 저출산 지원 정책 수립을 위한 저출산 요인 분석 (팀 프로젝트)  
->개발 기간: 2023.00.00 ~ 2023.00.00
+>개발 기간: 2023.04.12 ~ 2023.05.02
 >  
 >기술 스택:  
 >Python, R
@@ -28,7 +33,7 @@
 
 ### 2. [반찬 예측 및 메뉴 추천 시스템](https://github.com/hantaeseong00/Acorn_Final_Proj)
 >머신러닝과 CNN을 활용하여 이미지 분류 및 영양소 분석을 통한 반찬 예측 및 메뉴 추천 시스템 (팀 프로젝트)  
->개발 기간: 2023.00.00 ~ 2023.00.00
+>개발 기간: 2023.06.20 ~ 2023.07.12
 >  
 >기술 스택:  
 >Python, R
@@ -44,7 +49,7 @@
 >기술 스택:  
 >Python
 >  
->[Blood Cell](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Blood%20Cell) 참고
->[Brain Tumor Classification](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Brain%20Tumor%20Classification(MRI)) 참고
->[Chest X-Ray Images](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Chest%20X-Ray%20Images%20(Pneumonia)) 참고
+>[Blood Cell](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Blood%20Cell) 참고<br>
+>[Brain Tumor Classification](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Brain%20Tumor%20Classification(MRI)) 참고<br>
+>[Chest X-Ray Images](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Chest%20X-Ray%20Images%20(Pneumonia)) 참고<br>
 >[COVID-19 Radiography](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-COVID-19%20Radiography) 참고

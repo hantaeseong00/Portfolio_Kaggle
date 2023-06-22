@@ -1,5 +1,4 @@
 # :pushpin: Kaggle - Blood Cell
-<!-->CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50, VGG16) Blood Cell 데이터 분석 성능 비교-->
 - CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50, VGG16) Blood Cell 데이터 분석 성능 비교
 
 </br>
@@ -17,7 +16,6 @@
 
 ## 3. 소스코드(Colab)
 [KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
-<!--![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/final_erd.png)-->
 
 </br>
 
