@@ -1,21 +1,21 @@
 # 한태성 포트폴리오
->데이터사이언티스트와 컨텐츠 큐레이션을 융합한 다양한 잠재력
+>데이터사이언티스트와 컨텐츠 큐레이션을 융합한 다양한 잠재력  
 
 </br>
 
 ## :pushpin: Intro
->Taeseong Han (한태성)
+>Taeseong Han (한태성)  
 >
->M.S. Candidate
->B.S., Industrial and Management Engineering, INU
->Social Contents Curation
->AILawyer(인공지능변호사)
->Contents Extraction for Mobile
+>M.S. Candidate  
+>B.S., Industrial and Management Engineering, INU  
+>Social Contents Curation  
+>AILawyer(인공지능변호사)  
+>Contents Extraction for Mobile  
 
 </br>
 
 ## :pushpin: Contact
->이메일: hantaeseong4@naver.com
+>이메일: hantaeseong4@naver.com  
 >깃헙: https://github.com/hantaeseong00/
 
 </br>
