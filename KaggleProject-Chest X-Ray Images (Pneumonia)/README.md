@@ -30,48 +30,46 @@
 
 ### 4.1. MobileNet
 ![](./graph/MobileNet_loss_acc_graph.png)
-- Train : [loss: 0.4888, acc: 0.9880]
-- Validation : [loss: 0.4954, val_acc: 0.9744]
-- Test : [loss: 0.4937 - acc: 0.9769]
-- Learning Time :  0:33:43.225520
+- Train : [loss: 0.5690, acc: 0.9813]
+- Validation : [loss: 0.5734, val_acc: 0.9712]
+- Test : [loss: 0.5749 - acc: 0.9692]
+- Learning Time :  0:33:44.058732
 
 </br>
 
 ### 4.2. InceptionV3
 ![](./graph/InceptionV3_loss_acc_graph.png)
-loss: 0. - acc: 0. - val_loss: 0. - val_acc: 0.
-Learning Time :  
-37/37 [==============================] - 17s 462ms/step - loss: 0. - acc: 0.
-- Train : [loss: 0.2417, acc: 0.9939]
-- Validation : [loss: 0.2784, val_acc: 0.9541]
-- Test : [loss: 0.2783 - acc: 0.9556]
-- Learning Time :  0:19:59.704119
-- Early Stopping : Epoch 16/30
+- Train : [loss: 0.3789, acc: 0.9944]
+- Validation : [loss: 0.4068, val_acc: 0.9669]
+- Test : [loss: 0.4074 - acc: 0.9632]
+- Learning Time :  0:36:07.468925
+
+</br>
 
 ### 4.3. Xception
 ![](./graph/Xception_loss_acc_graph.png)
-- Train : [loss: 0.1125, acc: 0.9444]
-- Validation : [loss: 0.0670, val_acc: 0.9840]
-- Test : [loss: 0.0406 - acc: 0.9912]
-- Learning Time :  0:57:58.333981
+- Train : [loss: 0.3558, acc: 0.9909]
+- Validation : [loss: 0.3773, val_acc: 0.9658]
+- Test : [loss: 0.3791 - acc: 0.9641]
+Learning Time :  0:41:51.795174
 
 </br>
 
 ### 4.4. ResNet50
 ![](./graph/ResNet50_loss_acc_graph.png)
-- Train : [loss: 0.0862, acc: 0.9448]
-- Validation : [loss: 0.0270, val_acc: 0.9935]
-- Test : [loss: 0.0145 - acc: 0.9960]
-- Learning Time :  0:54:44.536932
+- Train : [loss: 0.3706, acc: 0.9939]
+- Validation : [loss: 0.3799, val_acc: 0.9797]
+- Test : [loss: 0.3826 - acc: 0.9769]
+Learning Time :  0:38:43.774339
 
 </br>
 
 ### 4.5. VGG16
 ![](./graph/VGG16_loss_acc_graph.png)
-- Train : [loss: 0.1831, acc: 0.8877]
-- Validation : [loss: 0.0137, val_acc: 0.9960]
-- Test : [loss: 0.0189 - acc: 0.9944]
-- Learning Time :  1:00:10.589472
+- Train : [loss: 0.4479, acc: 0.9301]
+- Validation : [loss: 0.4453, val_acc: 0.9615]
+- Test : [loss: 0.4426 - acc: 0.9675]
+Learning Time :  0:36:44.323282
 
 </br>
 
