@@ -37,7 +37,7 @@
 >개발 기간: 2023.06.20 ~ 2023.07.12
 >  
 >기술 스택:  
->Python, R
+>Python
 >  
 >[프로젝트 상세 설명](https://github.com/hantaeseong00/Acorn_Final_Proj) 참고
 
@@ -45,7 +45,7 @@
 
 ### 3. [캐글 프로젝트](https://github.com/hantaeseong00/Portfolio_Kaggle)
 > Blood Cell, Brain Tumor Classification, Chest X-Ray Images, COVID-19 Radiography의 CNN 모델별 성능 비교 (개인 프로젝트)  
->개발 기간: 2023.00.00 ~ 2023.00.00
+>개발 기간: 2023.06.01 ~ 2023.07.12
 >  
 >기술 스택:  
 >Python
