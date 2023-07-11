@@ -1,10 +1,10 @@
-# :pushpin: Kaggle - Blood Cell
-- Fine-Tuning the InceptionV3 Model Using the 'Blood Cells' Dataset
+# :pushpin: Kaggle - Chest X-Ray
+- Fine-Tuning the InceptionV3 Model Using the 'Chest X-Ray' Dataset
 
 </br>
 
 ## 1. 소스코드(Colab)
-- [KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
+- [KaggleProject-Chest X-Ray.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
 
 </br>
 
