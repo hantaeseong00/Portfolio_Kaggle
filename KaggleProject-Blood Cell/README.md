@@ -1,5 +1,5 @@
 # :pushpin: Kaggle - Blood Cell
-- CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50, VGG16) Blood Cell 데이터 분석 성능 비교
+- CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50) Blood Cell 데이터 분석 성능 비교
 
 </br>
 
@@ -59,15 +59,6 @@
 - Validation : [loss: 0.0270, val_acc: 0.9935]
 - Test : [loss: 0.0145 - acc: 0.9960]
 - Learning Time :  0:54:44.536932
-
-</br>
-
-### 4.5. VGG16
-![](./graph/VGG16_loss_acc_graph.png)
-- Train : [loss: 0.1831, acc: 0.8877]
-- Validation : [loss: 0.0137, val_acc: 0.9960]
-- Test : [loss: 0.0189 - acc: 0.9944]
-- Learning Time :  1:00:10.589472
 
 </br>
 

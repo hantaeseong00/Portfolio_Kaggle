@@ -94,7 +94,7 @@
 
 ## 3. The result of MobileNet fine-tuning
 
-![](./Graph/The_result_of_MobileNet_fine_tuning.png)
+![](./Graph/result.png)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
