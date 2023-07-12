@@ -44,13 +44,13 @@
 ---
 
 ### 3. [캐글 프로젝트](https://github.com/hantaeseong00/Portfolio_Kaggle)
-> Blood Cell, <!--Brain Tumor Classification, -->Chest X-Ray Images, COVID-19 Radiography의 CNN 모델별 성능 비교 (개인 프로젝트)  
+> Blood Cell, Brain Tumor Classification, Chest X-Ray Images, COVID-19 Radiography의 CNN 모델별 성능 비교 (개인 프로젝트)  
 >개발 기간: 2023.06.01 ~ 2023.07.12
 >  
 >기술 스택:  
 >Python
 >  
 >[Blood Cell](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Blood%20Cell) 참고<br>
-<!-->[Brain Tumor Classification](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Brain%20Tumor%20Classification(MRI)) 참고<br>-->
+>[Brain Tumor Classification](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Brain%20Tumor%20Classification(MRI)) 참고<br>
 >[Chest X-Ray Images](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-Chest%20X-Ray%20Images%20(Pneumonia)) 참고<br>
 >[COVID-19 Radiography](https://github.com/hantaeseong00/Portfolio_Kaggle/tree/main/KaggleProject-COVID-19%20Radiography) 참고
