@@ -112,6 +112,21 @@
 </br>
 
 ## 6. 회고 / 느낀점
--
+>Hidden Layer:<br>
+	- Hidden Layer의 증가에 따른 경향성을 파악 할 수 없었습니다.<br>
+	- Hidden Layer를 2개로 설정한 mn_resultset4에서는 정확도가 상당히 낮아진 것을 볼 수 있습니다.<br>
+	- Hidden Layer의 수를 늘리면 모델이 더 복잡한 패턴을 학습할 수 있지만, 학습에 필요한 데이터 양이 증가할 수도 있습니다.<br>
+	- Hidden Layer를 3개로 설정한 mn_resultset5에서는 높은 정확도를 보여줍니다. <br>
+	- Hidden Layer의 수를 증가시킴으로써 모델의 표현력이 증가하고, 적절한 학습 데이터로 충분히 학습되었을 것으로 예상됩니다.<br>
+>Dense Count:<br>
+	- Dense Count가 증가에 따른 경향성을 파악 할 수 없었습니다.<br>
+	- mn_resultset2와 mn_resultset3에서 Dense Count를 16과 32로 증가시킨 경우에는 정확도가 비슷한 수준을 유지하는 것을 볼 수 있습니다.<br>
+	- 모델의 표현력을 증가시키는 데는 한계가 있었을 것으로 보입니다.<br>
+>Learning Rate:<br>
+	- Learning Rate의 증가에 따른 경향성을 파악 할 수 없었습니다.<br>
+	- mn_resultset5에서 Learning Rate를 1e-5로 설정한 경우에도 높은 정확도를 유지하고 있습니다.<br>
+	- 학습 속도를 적절히 조절하여 모델의 성능을 개선한 것으로 보입니다.<br>
+>Conculusion:<br>
+	- mn_resultset6의 Hidden Layer를 1개, Dense Count를 8로 설정하고 Learning Rate를 5e-5로 설정한 경우가 가장 높은 정확도를 보였습니다.<br>
 
 </br>
