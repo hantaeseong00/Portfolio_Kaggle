@@ -1,10 +1,10 @@
-# :pushpin: Kaggle - Blood Cell
-- Fine-Tuning the Xception Model Using the 'Blood Cells' Dataset
+# :pushpin: Kaggle - COVID-19
+- Fine-Tuning the Xception Model Using the 'COVID-19' Dataset
 
 </br>
 
 ## 1. 소스코드(Colab)
-- [KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
+- [KaggleProject-COVID-19.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
 
 </br>
 
@@ -19,10 +19,10 @@
 - Model Architecture: Xception - F - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/1.png)
-- Train: [loss: 0.3409, acc: 0.8032]
-- Validation: [loss: 0.0331, val_acc: 0.9910]
-- Test: [loss: 0.0312, acc: 0.9920]
-- Learning Time: 1:19:29.017577
+-Train: [loss: 0.3257, acc: 0.8494]
+-Validation: [loss: 0.3536, val_acc: 0.9439]
+-Test: [loss: 0.4474, acc: 0.9301]
+-Learning Time: 1:01:47.232429
 
 </br>
 
@@ -30,10 +30,10 @@
 - Model Architecture: Xception - F - D(16)
 - Learning Rate: 1e-5
 ![](./Graph/2.png)
-- Train: [loss: 0.1011, acc: 0.9550]
-- Validation: [loss: 0.0475, val_acc: 0.9880]
-- Test: [loss: 0.0216, acc: 0.9932]
-- Learning Time: 1:18:20.149439
+-Train: [loss: 0.2441, acc: 0.8961]
+-Validation: [loss: 0.3563, val_acc: 0.9353]
+-Test: [loss: 0.4365, acc: 0.9263]
+-Learning Time: 1:01:46.800844
 
 </br>
 
@@ -41,10 +41,10 @@
 - Model Architecture: Xception - F - D(32)
 - Learning Rate: 1e-5
 ![](./Graph/3.png)
-- Train: [loss: 0.0136, acc: 0.9968]
-- Validation: [loss: 0.0559, val_acc: 0.9850]
-- Test: [loss: 0.0404, acc: 0.9884]
-- Learning Time: 1:14:48.856020
+-Train: [loss: 0.0288, acc: 0.9933]
+-Validation: [loss: 0.2789, val_acc: 0.9400]
+-Test: [loss: 0.3700, acc: 0.9334]
+-Learning Time: 1:02:37.174406
 
 </br>
 
@@ -52,10 +52,10 @@
 - Model Architecture: Xception - F - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/4.png)
-- Train: [loss: 0.9441, acc: 0.6242]
-- Validation: [loss: 0.6074, val_acc: 0.9690]
-- Test: [loss: 0.6097, acc: 0.9700]
-- Learning Time: 1:23:35.576984
+-Train: [loss: 0.7063, acc: 0.7138]
+-Validation: [loss: 0.4301, val_acc: 0.8786]
+-Test: [loss: 0.4518, acc: 0.8750]
+-Learning Time: 1:04:09.529668
 
 </br>
 
@@ -63,21 +63,21 @@
 - Model Architecture: Xception - F - D(8) - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/5.png)
-- Train: [loss: 1.1745, acc: 0.4899]
-- Validation: [loss: 0.9848, val_acc: 0.9345]
-- Test: [loss: 0.9836, acc: 0.9472]
-- Learning Time: 1:21:43.406829
+-Train: [loss: 1.2585, acc: 0.4751]
+-Validation: [loss: 1.1512, val_acc: 0.5288]
+-Test: [loss: 1.1533, acc: 0.5402]
+-Learning Time: 1:03:32.569916
 
 </br>
 
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: Xception - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
-- Train: [loss: 0.2317, acc: 0.8637]
-- Validation: [loss: 0.0098, val_acc: 0.9970]
-- Test: [loss: 0.0074, acc: 0.9976]
-- Learning Time: 1:19:22.879675
+![](./Graph/6.png)
+-Train: [loss: 0.2596, acc: 0.9125]
+-Validation: [loss: 0.2413, val_acc: 0.9498]
+-Test: [loss: 0.3105, acc: 0.9367]
+-Learning Time: 1:02:40.027671
 
 </br>
 
@@ -85,10 +85,10 @@
 - Model Architecture: Xception - F - D(8)
 - Learning Rate: 1e-4
 ![](./Graph/7.png)
-- Train: [loss: 0.2061, acc: 0.9083]
-- Validation: [loss: 0.0052, val_acc: 0.9990]
-- Test: [loss: 0.0068, acc: 0.9992]
-- Learning Time: 1:14:44.084134
+-Train: [loss: 0.2489, acc: 0.8963]
+-Validation: [loss: 0.2849, val_acc: 0.9498]
+-Test: [loss: 0.3455, acc: 0.9402]
+-Learning Time: 1:01:07.383946
 
 </br>
 
@@ -98,18 +98,18 @@
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
-| **mn_resultset1** | 1 | 8 | 1e-5 | 99.20% | 4769017 |
+| **mn_resultset1** | 1 | 8 | 1e-5 | 93.01% | 3707232 |
 |  |  |  |  |  |  |
-| **mn_resultset2** | 1 | **16** | 1e-5 | 99.32% | 4700149 |
-| **mn_resultset3** | 1 | **32** | 1e-5 | 98.84% | 4488856 |
+| **mn_resultset2** | 1 | **16** | 1e-5 | 92.63% | 3706800 |
+| **mn_resultset3** | 1 | **32** | 1e-5 | 93.34% | 3754174 |
 |  |  |  |  |  |  |
-| **mn_resultset4** | **2** | 8 | 1e-5 | 97.00% | **5015576** |
-| **mn_resultset5** | **3** | 8 | 1e-5 | **94.72%** | 4903406 |
+| **mn_resultset4** | **2** | 8 | 1e-5 | 87.50% | **3849529** |
+| **mn_resultset5** | **3** | 8 | 1e-5 | **54.02%** | 3812059 |
 |  |  |  |  |  |  |
-| **mn_resultset6** | 1 | 8 | **5e-5** | 99.76% | 4762879 |
-| **mn_resultset7** | 1 | 8 | **1e-4** | **99.92%** | **4484084** |
+| **mn_resultset6** | 1 | 8 | **5e-5** | 93.67% | 3760027 |
+| **mn_resultset7** | 1 | 8 | **1e-4** | **94.02%** | **3667383** |
 
-</br>
+<br>
 
 ## 6. 회고 / 느낀점
 -

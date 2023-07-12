@@ -74,7 +74,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
+![](./Graph/6.png)
 - Train: [loss: 0.2926, acc: 0.8252]
 - Validation: [loss: 0.0194, val_acc: 0.9970]
 - Test: [loss: 0.0071, acc: 0.9984]

@@ -73,7 +73,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: ResNet50 - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
+![](./Graph/6.png)
 - Train: [loss: 0.3715, acc: 0.8345]
 - Validation: [loss: 0.0782, val_acc: 0.9885]
 - Test: [loss: 0.0533, acc: 0.9896]

@@ -73,7 +73,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: VGG16 - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
+![](./Graph/6.png)
 - Train: [loss: 0.1234, acc: 0.9240]
 - Validation: [loss: 0.0985, val_acc: 0.9626]
 - Test: [loss: 0.1121, acc: 0.9692]

@@ -73,7 +73,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: MobileNet - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
+![](./Graph/6.png)
 - Train: [loss: 0.0573, acc: 0.9848]
 - Validation: [loss: 0.1070, val_acc: 0.9722]
 - Test: [loss: 0.0864, acc: 0.9821]

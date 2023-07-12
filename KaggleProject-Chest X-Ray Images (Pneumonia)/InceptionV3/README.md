@@ -19,10 +19,10 @@
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/1.png)
-- Train: [loss: 0.3059, acc: 0.8248]
-- Validation: [loss: 0.0316, val_acc: 0.9935]
-- Test: [loss: 0.0309, acc: 0.9944]
-- Learning Time: 0:53:20.448415
+- Train: [loss: 0.0834, acc: 0.9773]
+- Validation: [loss: 0.1125, val_acc: 0.9679]
+- Test: [loss: 0.1191, acc: 0.9726]
+- Learning Time: 0:43:58.176296
 
 
 </br>
@@ -31,10 +31,10 @@
 - Model Architecture: InceptionV3 - F - D(16)
 - Learning Rate: 1e-5
 ![](./Graph/2.png)
-- Train: [loss: 0.1335, acc: 0.9514]
-- Validation: [loss: 0.0219, val_acc: 0.9930]
-- Test: [loss: 0.0227, acc: 0.9948]
-- Learning Time: 0:50:05.980897
+- Train: [loss: 0.0172, acc: 0.9965]
+- Validation: [loss: 0.1520, val_acc: 0.9647]
+- Test: [loss: 0.1304, acc: 0.9726]
+- Learning Time: 0:42:56.175761
 
 </br>
 
@@ -42,10 +42,10 @@
 - Model Architecture: InceptionV3 - F - D(32)
 - Learning Rate: 1e-5
 ![](./Graph/3.png)
-- Train: [loss: 0.0145, acc: 0.9959]
-- Validation: [loss: 0.0319, val_acc: 0.9910]
-- Test: [loss: 0.0239, acc: 0.9944]
-- Learning Time: 0:47:13.427400
+- Train: [loss: 0.0054, acc: 0.9995]
+- Validation: [loss: 0.1420, val_acc: 0.9690]
+- Test: [loss: 0.1475, acc: 0.9632]
+- Learning Time: 0:42:14.161199
 
 </br>
 
@@ -53,10 +53,10 @@
 - Model Architecture: InceptionV3 - F - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/4.png)
-- Train: [loss: 0.9951, acc: 0.5164]
-- Validation: [loss: 0.6088, val_acc: 0.9900]
-- Test: [loss: 0.6134, acc: 0.9916]
-- Learning Time: 0:54:24.468800
+- Train: [loss: 0.3541, acc: 0.8347]
+- Validation: [loss: 0.1579, val_acc: 0.9669]
+- Test: [loss: 0.1605, acc: 0.9607]
+- Learning Time: 0:54:04.894952
 
 </br>
 
@@ -64,21 +64,21 @@
 - Model Architecture: InceptionV3 - F - D(8) - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/5.png)
-- Train: [loss: 1.1591, acc: 0.4356]
-- Validation: [loss: 1.0270, val_acc: 0.5010]
-- Test: [loss: 1.0250, acc: 0.5008]
-- Learning Time: 0:48:10.646637
+- Train: [loss: 0.4921, acc: 0.6413]
+- Validation: [loss: 0.4707, val_acc: 0.7297]
+- Test: [loss: 0.4700, acc: 0.7299]
+- Learning Time: 0:49:31.292331
 
 </br>
 
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
-- Train: [loss: 0.2926, acc: 0.8252]
-- Validation: [loss: 0.0194, val_acc: 0.9970]
-- Test: [loss: 0.0071, acc: 0.9984]
-- Learning Time: 0:41:58.517229
+![](./Graph/6.png)
+- Train: [loss: 0.0375, acc: 0.9808]
+- Validation: [loss: 0.1004, val_acc: 0.9808]
+- Test: [loss: 0.0980, acc: 0.9752]
+- Learning Time: 0:40:56.483226
 
 </br>
 
@@ -86,10 +86,10 @@
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 1e-4
 ![](./Graph/7.png)
-- Train: [loss: 0.2757, acc: 0.8615]
-- Validation: [loss: 0.7322, val_acc: 0.8970]
-- Test: [loss: 0.7722, acc: 0.8956]
-- Learning Time: 0:41:14.884448
+- Train: [loss: 0.1020, acc: 0.9603]
+- Validation: [loss: 0.4744, val_acc: 0.9327]
+- Test: [loss: 0.3179, acc: 0.9470]
+- Learning Time: 0:36:49.548395
 
 </br>
 
@@ -99,16 +99,16 @@
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
-| **mn_resultset1** | 1 | 8 | 1e-5 | 99.44% | 3200044.415 |
+| **mn_resultset1** | 1 | 8 | 1e-5 | 97.26% | 2638176 |
 |  |  |  |  |  |  |
-| **mn_resultset2** | 1 | **16** | 1e-5 | 99.48% | 3005980.897 |
-| **mn_resultset3** | 1 | **32** | 1e-5 | 99.00% | 2833427.4 |
+| **mn_resultset2** | 1 | **16** | 1e-5 | 97.26% | 2576175 |
+| **mn_resultset3** | 1 | **32** | 1e-5 | 96.32% | 2534161 |
 |  |  |  |  |  |  |
-| **mn_resultset4** | **2** | 8 | 1e-5 | 99.44% | **3264468.8** |
-| **mn_resultset5** | **3** | 8 | 1e-5 | **50.08%** | 2890646.637 |
+| **mn_resultset4** | **2** | 8 | 1e-5 | 96.07% | **3244894** |
+| **mn_resultset5** | **3** | 8 | 1e-5 | **72.99%** | 2979292 |
 |  |  |  |  |  |  |
-| **mn_resultset6** | 1 | 8 | **5e-5** | **99.84%** | 2518517.229 |
-| **mn_resultset7** | 1 | 8 | **1e-4** | 89.56% | **2474884.448** |
+| **mn_resultset6** | 1 | 8 | **5e-5** | **97.52%** | 2456483 |
+| **mn_resultset7** | 1 | 8 | **1e-4** | 94.70% | **2209348** |
 
 </br>
 

@@ -1,82 +1,113 @@
-# :pushpin: Kaggle - Blood Cell
-- CNN 모델별(MobileNet, InceptionV3, Xception, ResNet50, VGG16) Blood Cell 데이터 분석 성능 비교
+# :pushpin: Kaggle - COVID-19
+- Fine-Tuning the VGG16 Model Using the 'COVID-19' Dataset
 
 </br>
 
-## 1. 제작 기간 & 참여 인원
-- 2023.00.00 ~ 2023.00.00
-- 개인 프로젝트
+## 1. 소스코드(Colab)
+- [KaggleProject-COVID-19.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
 
 </br>
 
-## 2. 사용 라이브러리(Python)
-  - 
+## 2. VGG16 기본 세팅
+- weight: imagenet
+- Dropout: 0.5
+- optimizer: Adam
 
 </br>
 
-## 3. 소스코드(Colab)
-[KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
+### 2.1. Basic
+- Model Architecture: VGG16 - F - D(8)
+- Learning Rate: 1e-5
+![](./Graph/1.png)
+-Train: [loss: 0.5168, acc: 0.7724]
+-Validation: [loss: 0.2945, val_acc: 0.9427]
+-Test: [loss: 0.3134, acc: 0.9364]
+-Learning Time: 0:49:40.271250
 
 </br>
 
-## 4. 모델 별 loss, acc 그래프 확인
-- 기본 아키텍처 : pre_trained_model - F - D - D
-- weight : imagenet
-- 노드 수 : 16
-- Dropout : 0.5
-- optimizer : Adam(1e-5)
+### 2.2. Change dense value to 16
+- Model Architecture: VGG16 - F - D(16)
+- Learning Rate: 1e-5
+![](./Graph/2.png)
+-Train: [loss: 0.1736, acc: 0.9402]
+-Validation: [loss: 0.1846, val_acc: 0.9445]
+-Test: [loss: 0.2040, acc: 0.9381]
+-Learning Time: 0:49:57.433406
 
 </br>
 
-### 4.1. MobileNet
-![](./graph/MobileNet_loss_acc_graph.png)
-- Train : [loss: 0.1509, acc: 0.9239]
-- Validation : [loss: 0.0331, val_acc: 0.9920]
-- Test : [loss: 0.0236 - acc: 0.9944]
-- Learning Time :  0:19:53.549877
+### 2.3. Change dense value to 32
+- Model Architecture: VGG16 - F - D(32)
+- Learning Rate: 1e-5
+![](./Graph/3.png)
+-Train: [loss: 0.1736, acc: 0.9402]
+-Validation: [loss: 0.1846, val_acc: 0.9445]
+-Test: [loss: 0.2040, acc: 0.9381]
+-Learning Time: 0:49:57.433406
 
 </br>
 
-### 4.2. InceptionV3
-![](./graph/InceptionV3_loss_acc_graph.png)
-- Train : [loss: 0.1198, acc: 0.9398]
-- Validation : [loss: 0.0308, val_acc: 0.9930]
-- Test : [loss: 0.0127 - acc: 0.9976]
-- Learning Time :  0:35:53.756105
-
-### 4.3. Xception
-![](./graph/Xception_loss_acc_graph.png)
-- Train : [loss: 0.1125, acc: 0.9444]
-- Validation : [loss: 0.0670, val_acc: 0.9840]
-- Test : [loss: 0.0406 - acc: 0.9912]
-- Learning Time :  0:57:58.333981
+### 2.4. Change the number of hidden layers to 2
+- Model Architecture: VGG16 - F - D(8) - D(8)
+- Learning Rate: 1e-5
+![](./Graph/4.png)
+-Train: [loss: 1.1019, acc: 0.5639]
+-Validation: [loss: 0.8545, val_acc: 0.9318]
+-Test: [loss: 0.8581, acc: 0.9149]
+-Learning Time: 0:49:31.326334
 
 </br>
 
-### 4.4. ResNet50
-![](./graph/ResNet50_loss_acc_graph.png)
-- Train : [loss: 0.0862, acc: 0.9448]
-- Validation : [loss: 0.0270, val_acc: 0.9935]
-- Test : [loss: 0.0145 - acc: 0.9960]
-- Learning Time :  0:54:44.536932
+### 2.5. Change the number of hidden layers to 3
+- Model Architecture: VGG16 - F - D(8) - D(8) - D(8)
+- Learning Rate: 1e-5
+![](./Graph/5.png)
+-Train: [loss: 1.1556, acc: 0.4359]
+-Validation: [loss: 0.9527, val_acc: 0.4815]
+-Test: [loss: 0.9515, acc: 0.4816]
+-Learning Time: 0:48:39.805336
 
 </br>
 
-### 4.5. VGG16
-![](./graph/VGG16_loss_acc_graph.png)
-- Train : [loss: 0.1831, acc: 0.8877]
-- Validation : [loss: 0.0137, val_acc: 0.9960]
-- Test : [loss: 0.0189 - acc: 0.9944]
-- Learning Time :  1:00:10.589472
+### 2.6. Change learning rate value to 5e-5
+- Model Architecture: VGG16 - F - D(8)
+- Learning Rate: 5e-5
+![](./Graph/6.png)
+-Train: [loss: 0.5653, acc: 0.8096]
+-Validation: [loss: 0.3972, val_acc: 0.9223]
+-Test: [loss: 0.3957, acc: 0.9296]
+-Learning Time: 0:48:56.834425
 
 </br>
 
-## 5. 모델 별 학습시간, 정확도 그래프
-- x : 학습시간
-- y : 정확도
-- label : [train, validation, test]
+### 2.7. Change learning rate value to 1e-4
+- Model Architecture: VGG16 - F - D(8)
+- Learning Rate: 1e-4
+![](./Graph/7.png)
+-Train: [loss: 0.3950, acc: 0.8124]
+-Validation: [loss: 0.2232, val_acc: 0.9312]
+-Test: [loss: 0.3957, acc: 0.9296]
+-Learning Time: 0:48:56.834425
 
-![](./graph/compared_model_graph.png)
+</br>
+
+## 3. The result of VGG16 fine-tuning
+
+![](./Graph/result.png)
+
+| Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
+| :-- | :-: | :-: | :-: | :-: | :-: |
+| **mn_resultset1** | 1 | 8 | 1e-5 | 93.64% | 2980271 |
+|  |  |  |  |  |  |
+| **mn_resultset2** | 1 | **16** | 1e-5 | **93.81%** | **2997433** |
+| **mn_resultset3** | 1 | **32** | 1e-5 | 93.81% | 2997433 |
+|  |  |  |  |  |  |
+| **mn_resultset4** | **2** | 8 | 1e-5 | 91.49% | 2971326 |
+| **mn_resultset5** | **3** | 8 | 1e-5 | **48.16%** | **2915805** |
+|  |  |  |  |  |  |
+| **mn_resultset6** | 1 | 8 | **5e-5** | 92.96% | 2936834 |
+| **mn_resultset7** | 1 | 8 | **1e-4** | 92.96% | 2936834 |
 
 </br>
 

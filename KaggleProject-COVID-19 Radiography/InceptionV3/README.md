@@ -1,10 +1,10 @@
-# :pushpin: Kaggle - Blood Cell
-- Fine-Tuning the InceptionV3 Model Using the 'Blood Cells' Dataset
+# :pushpin: Kaggle - COVID-19
+- Fine-Tuning the InceptionV3 Model Using the 'COVID-19' Dataset
 
 </br>
 
 ## 1. 소스코드(Colab)
-- [KaggleProject-Blood Cell.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
+- [KaggleProject-COVID-19.ipynb](https://colab.research.google.com/drive/18BXx_fb77k9KbYsv_bVidVf9FhbqK2KA#scrollTo=f2XiUpwDXhNq)
 
 </br>
 
@@ -19,10 +19,10 @@
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/1.png)
-- Train: [loss: 0.3059, acc: 0.8248]
-- Validation: [loss: 0.0316, val_acc: 0.9935]
-- Test: [loss: 0.0309, acc: 0.9944]
-- Learning Time: 0:53:20.448415
+-Train: [loss: 0.3584, acc: 0.8459]
+-Validation: [loss: 0.2892, val_acc: 0.9273]
+-Test: [loss: 0.2789, acc: 0.9267]
+-Learning Time: 0:37:22.135810
 
 
 </br>
@@ -31,10 +31,10 @@
 - Model Architecture: InceptionV3 - F - D(16)
 - Learning Rate: 1e-5
 ![](./Graph/2.png)
-- Train: [loss: 0.1335, acc: 0.9514]
-- Validation: [loss: 0.0219, val_acc: 0.9930]
-- Test: [loss: 0.0227, acc: 0.9948]
-- Learning Time: 0:50:05.980897
+-Train: [loss: 0.1171, acc: 0.9491]
+-Validation: [loss: 0.3531, val_acc: 0.9247]
+-Test: [loss: 0.3588, acc: 0.9286]
+-Learning Time: 0:33:52.998940
 
 </br>
 
@@ -42,10 +42,10 @@
 - Model Architecture: InceptionV3 - F - D(32)
 - Learning Rate: 1e-5
 ![](./Graph/3.png)
-- Train: [loss: 0.0145, acc: 0.9959]
-- Validation: [loss: 0.0319, val_acc: 0.9910]
-- Test: [loss: 0.0239, acc: 0.9944]
-- Learning Time: 0:47:13.427400
+-Train: [loss: 0.0304, acc: 0.9925]
+-Validation: [loss: 0.3265, val_acc: 0.9323]
+-Test: [loss: 0.3481, acc: 0.9336]
+-Learning Time: 0:32:43.499508
 
 </br>
 
@@ -53,10 +53,10 @@
 - Model Architecture: InceptionV3 - F - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/4.png)
-- Train: [loss: 0.9951, acc: 0.5164]
-- Validation: [loss: 0.6088, val_acc: 0.9900]
-- Test: [loss: 0.6134, acc: 0.9916]
-- Learning Time: 0:54:24.468800
+-Train: [loss: 0.8644, acc: 0.7231]
+-Validation: [loss: 0.5290, val_acc: 0.9123]
+-Test: [loss: 0.5627, acc: 0.9173]
+-Learning Time: 0:42:05.952831
 
 </br>
 
@@ -64,21 +64,21 @@
 - Model Architecture: InceptionV3 - F - D(8) - D(8) - D(8)
 - Learning Rate: 1e-5
 ![](./Graph/5.png)
-- Train: [loss: 1.1591, acc: 0.4356]
-- Validation: [loss: 1.0270, val_acc: 0.5010]
-- Test: [loss: 1.0250, acc: 0.5008]
-- Learning Time: 0:48:10.646637
+-Train: [loss: 1.1834, acc: 0.5419]
+-Validation: [loss: 1.0620, val_acc: 0.8597]
+-Test: [loss: 1.0627, acc: 0.8488]
+-Learning Time: 0:43:16.059274
 
 </br>
 
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 5e-5
-![](./graph/6.png)
-- Train: [loss: 0.2926, acc: 0.8252]
-- Validation: [loss: 0.0194, val_acc: 0.9970]
-- Test: [loss: 0.0071, acc: 0.9984]
-- Learning Time: 0:41:58.517229
+![](./Graph/6.png)
+-Train: [loss: 0.2802, acc: 0.8586]
+-Validation: [loss: 0.3454, val_acc: 0.9445]
+-Test: [loss: 0.3972, acc: 0.9440]
+-Learning Time: 0:32:30.708499
 
 </br>
 
@@ -86,10 +86,10 @@
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 1e-4
 ![](./Graph/7.png)
-- Train: [loss: 0.2757, acc: 0.8615]
-- Validation: [loss: 0.7322, val_acc: 0.8970]
-- Test: [loss: 0.7722, acc: 0.8956]
-- Learning Time: 0:41:14.884448
+-Train: [loss: 0.3295, acc: 0.8938]
+-Validation: [loss: 0.2912, val_acc: 0.9386]
+-Test: [loss: 0.3809, acc: 0.9334]
+-Learning Time: 0:34:04.444849
 
 </br>
 
@@ -99,16 +99,16 @@
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
-| **mn_resultset1** | 1 | 8 | 1e-5 | 99.44% | 3200044.415 |
+| **mn_resultset1** | 1 | 8 | 1e-5 | 92.67% | 2242135 |
 |  |  |  |  |  |  |
-| **mn_resultset2** | 1 | **16** | 1e-5 | 99.48% | 3005980.897 |
-| **mn_resultset3** | 1 | **32** | 1e-5 | 99.00% | 2833427.4 |
+| **mn_resultset2** | 1 | **16** | 1e-5 | 92.86% | 2032998 |
+| **mn_resultset3** | 1 | **32** | 1e-5 | 93.36% | 1963499 |
 |  |  |  |  |  |  |
-| **mn_resultset4** | **2** | 8 | 1e-5 | 99.44% | **3264468.8** |
-| **mn_resultset5** | **3** | 8 | 1e-5 | **50.08%** | 2890646.637 |
+| **mn_resultset4** | **2** | 8 | 1e-5 | **91.73%** | 2525952 |
+| **mn_resultset5** | **3** | 8 | 1e-5 | 91.88% | **2596059** |
 |  |  |  |  |  |  |
-| **mn_resultset6** | 1 | 8 | **5e-5** | **99.84%** | 2518517.229 |
-| **mn_resultset7** | 1 | 8 | **1e-4** | 89.56% | **2474884.448** |
+| **mn_resultset6** | 1 | 8 | **5e-5** | **94.40%** | **1950708** |
+| **mn_resultset7** | 1 | 8 | **1e-4** | 93.34% | 2044449 |
 
 </br>
 
