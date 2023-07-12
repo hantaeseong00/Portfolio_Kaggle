@@ -31,7 +31,7 @@
 ### 4.1. MobileNet
 - Model Architecture: MobileNet - F - D(8)
 - Learning Rate: 5e-5
-![](./Graph/MobileNet.png)
+![](./graph/MobileNet.png)
 - Train : [loss: 0.3148, acc: 0.8298]
 - Validation : [loss: 0.0276, val_acc: 0.9960]
 - Test : [loss: 0.0492 - acc: 0.9936]
@@ -42,7 +42,7 @@
 ### 4.2. InceptionV3
 - Model Architecture: InceptionV3 - F - D(8)
 - Learning Rate: 5e-5
-![](./Graph/InceptionV3.png)
+![](./graph/InceptionV3.png)
 - Train: [loss: 0.2926, acc: 0.8252]
 - Validation: [loss: 0.0194, val_acc: 0.9970]
 - Test: [loss: 0.0071, acc: 0.9984]
@@ -51,7 +51,7 @@
 ### 4.3. Xception
 - Model Architecture: Xception - F - D(8)
 - Learning Rate: 1e-4
-![](./Graph/Xception.png)
+![](./graph/Xception.png)
 - Train: [loss: 0.2061, acc: 0.9083]
 - Validation: [loss: 0.0052, val_acc: 0.9990]
 - Test: [loss: 0.0068, acc: 0.9992]
@@ -62,7 +62,7 @@
 ### 4.4. ResNet50
 - Model Architecture: ResNet50 - F - D(16)
 - Learning Rate: 1e-5
-![](./Graph/ResNet50.png)
+![](./graph/ResNet50.png)
 - Train: [loss: 0.0896, acc: 0.9729]
 - Validation: [loss: 0.0266, val_acc: 0.9930]
 - Test: [loss: 0.0127, acc: 0.9976]
@@ -72,7 +72,7 @@
 
 ## 5. 모델 별 학습시간, 정확도 그래프
 
-![](./Graph/result.png)
+![](./graph/result.png)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
